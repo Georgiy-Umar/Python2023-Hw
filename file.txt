@@ -1,0 +1,9 @@
+red
+green
+blue
+LINE 123
+Bobrik
+LINE 1111
+
+line 1
+line 2
