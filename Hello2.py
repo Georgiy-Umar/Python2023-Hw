@@ -118,14 +118,15 @@
 
                                              
                                              ##### РЕКУРСИЯ #####
-
-# def fib (n):        #b FIBONACCI ПРИМЕР это когда к последующей цифре прибавляем текущую
+ 
+# n = int(input("Enter number: "))
+# def fib (n):       #b FIBONACCI ПРИМЕР это когда к последующей цифре прибавляем текущую
 #      if n in [1, 2]:
 #        return 1
 #      else:
 #           return fib (n-1) + fib (n-2) 
 # list = []
-# for e in range (9, 10): #тут задается диапозон для отображения в терминале на котором хотим узнать данные фибоначи
+# for e in range (1,6): #тут задается диапозон для отображения в терминале на котором хотим узнать данные фибоначи
 #      list. append (fib (e)) 
 # print (list) # 1 1 2 3 5 8 13 21 34
 
@@ -294,29 +295,29 @@
 
                                              ###### СПИСКИ ######
 
-list2 = [1,2,3,4,51]
-list1 = [1,2,3,4,51]
+# list2 = [1,2,3,4,51]
+# list1 = [1,2,3,4,51]
 
-l = list2
+# l = list2
 
-print(l)
+# print(l)
 
-print(l.append(556))
-print(l)
+# print(l.append(77))
+# print(l)
 
-print(list1.insert(2, 11)) #замена элемента с индексом 2 (3 на 11)
-print(list1)
+# print(list1.insert(2, 11)) #замена элемента с индексом 2 (3 на 11)
+# print(list1)
 
-print(len(list1)) # МЕТОD POP с каждым выводом удаляет последний элемент списка
+# print(len(list1)) # МЕТОD POP с каждым выводом удаляет последний элемент списка
 
-print(list1.pop(3)) # ТАКИМ ОБРАЗОМ УДАЛЯЕТСЯ КОНКРЕТНЫЙ ЭЛЕМЕНТ СПИСКА С ИНДЕКСОМ 3
+# print(list1.pop(3)) # ТАКИМ ОБРАЗОМ УДАЛЯЕТСЯ КОНКРЕТНЫЙ ЭЛЕМЕНТ СПИСКА С ИНДЕКСОМ 3
 
-print(list1.pop())
-print(list1)
-print (list1.pop())
-print (list1)
-print(list1.pop() )
-print (list1)              
+# print(list1.pop())
+# print(list1)
+# print (list1.pop())
+# print (list1)
+# print(list1.pop() )
+# print (list1)              
 
 
 
