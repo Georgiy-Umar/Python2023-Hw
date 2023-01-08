@@ -78,10 +78,10 @@
 # ПРИОРИТЕТ ОПЕРАЦИЙ +, -, *, /, %, //,**
 
 
-# exp1 = 2**3 - 10 % 5 + 2*3
-# exp2 = 2**3 - 10 / 5 + 2*3
-# print(exp1) # 14.0 или 14
-# print(exp2) # 12.0 или 12
+exp1 = 2**3 - 10 % 5 + 2*3
+exp2 = 2**3 - 10 / 5 + 2*3
+print(exp1) # 14.0 или 14
+print(exp2) # 12.0 или 12
 
 # Сокращённые операции и операции присваивания
 # Демонстрация
@@ -247,7 +247,7 @@
 #  inverted = inverted * 10 + (original % 10)
 #  original //= 10
 # print(inverted)
-
+# exit()
 # original = 222224
 # inverted = 0
 # while original != 0:
@@ -265,18 +265,18 @@
 # #так же можно записать:
 # list = [1,2,3,4,5]
 # for i in list:
-#     print(i*(5))
+    # print(i*(5))
 
 # #чтобы перебрать список ДИАПАЗОНОМ от 0 ДДДДООО какой-либо цифры записываем так:
 # list = range(10)
 # for i in list:
-#     print(i)
+    # print(i)
 # # или ТАК:
 # for i in range(5):
 #     print(i)
 # #ИЛИ ТАК:
-# for i in range(1, 6):
-#     print(i)
+# for i in range(3, 6):
+    # print(i)
 # # ЧТОБЫ ИЗМЕНИТЬ ШАГ ДОБАВЛЯЕМ 3-Й АРГУМЕНТ ПРЕРАЩЕНИЯ:
 # for i in range(1, 10, 2):
 #     print(i)
@@ -355,16 +355,16 @@
                             #######  РАБОТА С ФУНКЦИЯМИ ########
 
 
-def f(x):
- return x**2
+# def f(x):
+#  return x**2
 
-def f(x):
-    if x == 1:
-        return 'Целое'
-    elif x == 2.3:
-        return 23
-    else:
-        return
+# def f(x):
+#     if x == 1:
+#         return 'Целое'
+#     elif x == 2.3:
+#         return 23
+#     else:
+#         return
 # arg = 2
 # print(f(arg))
 # print(type(f(arg)))
